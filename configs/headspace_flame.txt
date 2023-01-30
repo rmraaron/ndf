@@ -1,0 +1,6 @@
+exp_name = headspace_flame
+data_dir = ../../Headspace_FLAME_registrations/
+split_file = datasets/split_headspace.npz
+input_data_glob = /*/*.obj
+sample_std_dev = [0.08, 0.02, 0.003]
+sample_ratio = [0.01, 0.49, 0.5]
